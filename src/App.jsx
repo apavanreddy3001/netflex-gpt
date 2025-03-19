@@ -1,5 +1,6 @@
 import { useState } from 'react'
-
+import Body from './Components/Body/Body'
+import Login from './Components/login/login'
 
 
 function App() {
@@ -7,7 +8,10 @@ function App() {
 
   return (
     <>
-      <div className=' text-3xl font-bold text-green-800 ' >welcome </div>        
+      <div> 
+        <Body></Body>  
+      
+       </div>        
     </>
   )
 }
